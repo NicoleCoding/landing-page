@@ -33,10 +33,23 @@ button {
     color: white;
     border: solid 1px #3883F6;
     border-radius: 5px;
+    padding: 5px;
 }
 
 h1, h2 {
     text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-style: extra-bold;
+    color: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-style: extra-bold;
+    color: #F9FAF8;
 }
 
 .image {
@@ -46,7 +59,17 @@ h1, h2 {
 
 #quote {
     background-color: #E5E7EB;
-    font-size: large;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
     text-align: center;
     padding: 5rem;
+}
+
+#call-to-action {
+    background-color: #3882F6;
+}
+
+#sign-up {
+    border: solid 1px white;
 }
